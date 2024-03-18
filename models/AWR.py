@@ -45,6 +45,7 @@ class ADWT(nn.Module):
 
     for param in self.parameters():
       param.requires_grad = trainable
+
   def forward(self, x):
 
     x = x.float()
