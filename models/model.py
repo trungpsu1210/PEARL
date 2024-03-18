@@ -451,9 +451,9 @@ def trainPEARL_b():
 def testPEARL_s():
 	return gUNet(kernel_size=5, base_dim=24, depths=[1, 1, 1, 2, 1, 1, 1], conv_layer=ConvLayer, norm_layer=nn.BatchNorm2d, gate_act=nn.Sigmoid, fusion_layer=SKFusion)
 
-def testPEARL_b():
+def testPEARL_m():
 	return gUNet(kernel_size=5, base_dim=24, depths=[3, 3, 3, 6, 3, 3, 3], conv_layer=ConvLayer, norm_layer=nn.BatchNorm2d, gate_act=nn.Sigmoid, fusion_layer=SKFusion)
 
-def testPEARL_l():
+def testPEARL_b():
 	return gUNet(kernel_size=5, base_dim=24, depths=[9, 9, 9, 18, 9, 9, 9], conv_layer=ConvLayer, norm_layer=nn.BatchNorm2d, gate_act=nn.Sigmoid, fusion_layer=SKFusion)
 
