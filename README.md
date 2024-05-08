@@ -1,1 +1,1 @@
-# Physically Enriched and Adaptive Wavelet Representation Learner for Joint Low-light Enhancement and Image Deblurring - (PEARL) #
+# Physically Enriched Representation Learner for Joint Low-light Image Enhancement and Deblurring - (PEARL) #
